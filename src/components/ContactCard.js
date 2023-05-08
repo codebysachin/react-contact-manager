@@ -2,7 +2,10 @@ import React from "react";
 import user from "../images/user.png";
 
 const ContactCard = (props) => {
+    // destructure props
     const { id, name, email } = props.contact;
+    // return contact card
+    // use onClick to call clickHandler function from props and pass id, to delete contact 
     return (
         <div className="item">
             <img className="ui avatar image" src={user} alt="user" />

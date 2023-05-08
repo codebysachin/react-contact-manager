@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Header = () => {
+    // return header
     return (
         <div className="ui fixed menu">
             <div className="ui container center">
